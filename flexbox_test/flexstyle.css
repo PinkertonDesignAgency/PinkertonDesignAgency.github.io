@@ -1,0 +1,43 @@
+*{box-sizing: border-box;}
+.gallery{
+display: flex;
+flex-wrap: wrap;
+}
+article img{
+    width: 100%;
+}
+.gallery article{
+    flex: 25%;
+}
+.featured article{
+    flex: 1;
+}
+ h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 300px;
+}
+
+h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 50px 25px 50px 25px;
+}
+body{
+    padding: 50px 100px 50px 100px;
+}
+
+.flex-me{
+    display: flex;
+}
+
+.flex-me div{
+    flex:1;
+}
+.caption{
+    padding: 0px 0px 0px 0px;
+    font-size: 18px;
+}
