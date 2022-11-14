@@ -1,0 +1,64 @@
+body {
+    background: teal;
+    margin: 0;
+  }
+  body.two-col-page {
+    background: rgb(138, 215, 234);
+  }
+  img {
+    width: 100%;
+  }
+  main {
+    position: relative;
+    padding: 60px;
+    background: rgb(123, 118, 118);
+    width: 50%;
+    margin: auto;
+   
+    height: 80vh;
+  }
+  .blob1 {
+    position: absolute;
+    top: -160px;
+    left: -160px;
+    z-index: 1;
+  }
+  .blob2 {
+    position: absolute;
+    bottom: -140px;
+    right: -140px;
+    z-index: 2;
+  }
+  
+  main p {
+    z-index: 3;
+    position: relative;
+    margin-top: 200px;
+  }
+  .two-cols {
+    display: flex;
+  }
+  .two-cols section {
+    flex: 1;
+  }
+  .two-cols p {
+    margin-left: -120px;
+    }
+
+    .button{
+      flex: 2;
+      background:rgb(123, 63, 108);
+      color: azure;
+      text-decoration: none;
+      padding: 20px;
+      border-radius: 12px;
+      position: relative;
+      left: 800px;
+      bottom: 100px;
+      box-shadow: 6px 6px 6px 2px;
+    }
+
+    .button:hover{
+      color: black;
+      transition: 500ms;
+    }
