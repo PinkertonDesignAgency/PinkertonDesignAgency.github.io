@@ -4,4 +4,18 @@
     box-sizing: border-box;
 }
 
+#right-wheel{
+    animation: wheel 1s ease;
+    
+}
+
+@keyframes wheel {
+    from {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
    
