@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 
-#right-wheel{
+#front-wheel{
     animation: wheel 1s ease;
-    
+    transform-origin: center;
+    transform-box: fill-box;
 }
 
 @keyframes wheel {
